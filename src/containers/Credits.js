@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { credits } from '../data/credits'
 
-
-
 const Container = styled.div`
     margin-top: 4rem;
     z-index: 5;

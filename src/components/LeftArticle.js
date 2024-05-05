@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Red from "../images/Red.svg"
-import Yellow from "../images/Yellow.svg"
-import Green from "../images/Green.svg"
-import SmallGreen from "../images/SmallGreen.svg"
-import SmallRed from "../images/SmallRed.svg"
-import SmallYellow from "../images/SmallYellow.svg"
+import Red from "../assets/Red.svg"
+import Yellow from "../assets/Yellow.svg"
+import Green from "../assets/Green.svg"
+import SmallGreen from "../assets/SmallGreen.svg"
+import SmallRed from "../assets/SmallRed.svg"
+import SmallYellow from "../assets/SmallYellow.svg"
 
 const LeftArticleWrapper = styled.div`
     max-width: 70vw;

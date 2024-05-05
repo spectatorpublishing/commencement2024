@@ -17,7 +17,7 @@ export const sections = [
         url: "/opinion",
     },
     {
-        title: "A&C",
+        title: "Arts and Culture",
         url: "/a&c",
     },
     {
@@ -25,11 +25,15 @@ export const sections = [
         url: "/sports",
     },
     {
-        title: "Audio",
-        url: "/audio",
-    },
-    {
         title: "Spectrum",
         url: "/spectrum",
+    },
+    {
+        title: "Podcasts",
+        url: "/podcasts",
+    },
+    {
+        title: "Dedications",
+        url: "/dedications",
     }
 ];

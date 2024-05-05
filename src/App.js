@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './containers/Home';
 import Section from './containers/Section';
 import { 
-  audio_articles, 
+  podcasts_articles, 
   university_news_articles, 
   opinion_articles, 
   sports_articles, 
@@ -12,6 +12,10 @@ import {
   city_news_articles,
   spectrum_articles 
 } from './data/articles';
+
+import {
+  dedications
+} from './data/dedications';
 
 
 const App = () => {
@@ -30,8 +34,9 @@ const App = () => {
         <Route path="/opinion" element={<Section id="opinion" header="OPINION" articles={opinion_articles} />} />
         <Route path="/a&c" element={<Section id="a&c" header="ARTS & CULTURE" articles={ac_articles} />} />
         <Route path="/sports" element={<Section id="sports" header="SPORTS" articles={sports_articles} />} />
-        <Route path="/audio" element={<Section id="audio" header="AUDIO" articles={audio_articles} />} />
+        <Route path="/podcasts" element={<Section id="podcasts" header="PODCATS" articles={podcasts_articles} />} />
         <Route path="/spectrum" element={<Section id="spectrum" header="SPECTRUM" articles={spectrum_articles} />} />
+        <Route path="/dedications" element={<Section id="dedications" header="DEDICATIONS" articles={dedications} />} />
       </Routes>
     </BrowserRouter>
   );
