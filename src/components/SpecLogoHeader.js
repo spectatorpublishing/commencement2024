@@ -5,13 +5,13 @@ const SpecLogo = styled.div`
     justify-content: center;
     display: flex;
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 3vh;
     margin-bottom: 1.75rem;
 `;
 
 const Image = styled.img`
     display: block;
-    width: 40rem;
+    width: 36rem;
     height: 8vh;
     @media only screen and (max-width: 768px){
         width: 10rem;

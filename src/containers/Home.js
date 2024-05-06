@@ -16,9 +16,14 @@ const HomeContainer = styled.div`
     justify-content: center;
 `;
 
+const Header = styled.div`
+    width: 100%;
+    height: 100vh;
+`;
+
 const Photo = styled.div`
     width: 100%;
-   
+    height: 80%;
 `;
 
 const HomeSectionContainer = styled.div`
@@ -42,11 +47,13 @@ const Home = () => {
 
     return (
         <HomeContainer>
-                <SpecLogoHeader/>
+                <Header>
+                    <SpecLogoHeader/>
+                    <Photo>
+                        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RYKCC2DODRDRFC2KV7J4IO3VJQ.jpg" alt = "commencement illustration" style = {{width: '100%', height: '100%'}}></img>
+                    </Photo>
+                </Header>
                 <MobileNavBar/>
-                <Photo>
-                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RYKCC2DODRDRFC2KV7J4IO3VJQ.jpg" alt = "commencement illustration" style = {{width: '100%'}}></img>
-                </Photo>
                 <HomeSectionContainer>
                     <NavBar/>
                     <Letter/>

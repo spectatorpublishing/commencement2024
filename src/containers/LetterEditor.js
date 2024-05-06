@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LetterWrapper = styled.div`
-    z-index: 5;
     padding: 2rem;
     @media only screen and (max-width: 768px){
         padding: 1rem;
@@ -32,7 +31,7 @@ const LetterEditor = () => {
 };
 
 const Title = styled.div`
-    color: white;
+    color: #233C70;
     font-family: 'Black Han Sans';
     font-style: normal;
     font-weight: 43.75rem;
@@ -58,7 +57,7 @@ const Title = styled.div`
 
 const MobileTitle = styled.div`
     
-    color: white;
+    color: #233C70;
     font-family: 'Black Han Sans';
     font-style: normal;
     font-weight: 43.75rem;
@@ -77,8 +76,8 @@ const MobileTitle = styled.div`
 
 const Text = styled.div`
     p{
-    color: white;
-    font-family: 'Khula';
+    color: #233C70;
+    font-family: "Oldenburg", serif;
     font-style: normal;
     font-weight: 25rem;
     font-size: 1.29rem;
@@ -114,7 +113,7 @@ const Spacing = styled.div`
 
 const Signature = styled.div`
     .name {
-        color: white;
+        color: #233C70;
         font-style: normal;
         font-weight: 25rem;
         font-size: 2.4rem;
@@ -130,9 +129,9 @@ const Signature = styled.div`
        
     }
     .title {
-        color: white;
+        color: #233C70;
         font-style: normal;
-        font-family: Khula;
+        font-family: "Special Elite", system-ui;
         font-weight: 25rem;
         font-size: 1.125rem;
         line-height: 1.813rem;
