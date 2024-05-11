@@ -13,10 +13,6 @@ import {
   spectrum_articles 
 } from './data/articles';
 
-import {
-  dedications
-} from './data/dedications';
-
 
 const App = () => {
   const [currentSection, setSection] = useState("/");
@@ -36,7 +32,6 @@ const App = () => {
         <Route path="/sports" element={<Section id="sports" header="SPORTS" articles={sports_articles} />} />
         <Route path="/podcasts" element={<Section id="podcasts" header="PODCATS" articles={podcasts_articles} />} />
         <Route path="/spectrum" element={<Section id="spectrum" header="SPECTRUM" articles={spectrum_articles} />} />
-        <Route path="/dedications" element={<Section id="dedications" header="DEDICATIONS" articles={dedications} />} />
       </Routes>
     </BrowserRouter>
   );

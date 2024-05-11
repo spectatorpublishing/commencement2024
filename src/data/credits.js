@@ -7,17 +7,9 @@ export const credits = {
     ],
     "Engineering": [
       {
-        "staff_name": "Aishani Srikumar",
-        "title": "Engineering Manager"
-      },
-      {
-        "staff_name": "Gabriel Guerra Trigo",
-        "title": "Associate Developer"
-      },
-      {
-        "staff_name": "Emily Xia",
-        "title": "Associate Developer"
-      },
+        "staff_name": "Darien Moment",
+        "title": "Head of Engineering"
+      }
     ],
     "Product": [
       {

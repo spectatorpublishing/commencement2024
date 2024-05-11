@@ -5,11 +5,11 @@ import NavBar from '../components/NavBar';
 import styled from 'styled-components';
 import MobileNavBar from '../components/MobileNavBar';
 import SpecLogoHeader from '../components/SpecLogoHeader';
-import backgroundImage from '../assets/backgroundImage.png'
+import backgroundImage from '../assets/backgroundImage.png';
 
 const HomeContainer = styled.div`
     width: 100%;
-    background-color: rgba(158, 206, 235, 0.5);
+    background-color: rgba(158, 206, 235, 0.6);
     background-image: url(${backgroundImage});
     display: flex;
     flex-direction: column;

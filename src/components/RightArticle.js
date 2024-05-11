@@ -93,17 +93,17 @@ const ArticleInfo = styled.div`
     margin: 0rem 0rem 0rem 0rem;
     color: #FFFFFF;
     text-align: center;
-    font-family: "Black Han Sans";
-    font-size: 28px;
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
     font-style: normal;
-    font-weight: 400;
+    font-variation-settings: "slnt" 0;
     line-height: normal;
     text-transform: uppercase;
-    text-shadow: 0px 0px 2px black;
 `;
 
 const ArticleTitle = styled(ArticleInfo)`
     position: absolute;
+    color: #E9DDC7;
     font-size: 1.4rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -136,17 +136,11 @@ const ArticleTitle = styled(ArticleInfo)`
 `;
 
 const ArticleAuthor = styled(ArticleInfo)`
-    color: #FFFFFF;
-    text-align: left;
-    margin-left: 10%;
-    padding-top: 5%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Khula;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    color: black;
+    text-align: center;
     font-size: 1.3rem;
     text-transform: uppercase;
+    line-height: normal;
     @media screen and (max-width: 1200px) {
         font-size: 1.2rem;
     }
