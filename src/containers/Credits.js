@@ -4,8 +4,7 @@ import { credits } from '../data/credits'
 
 const Container = styled.div`
     margin-top: 4rem;
-    z-index: 5;
-    color: white;
+    color: #233C70;
     padding: 2rem 2rem 0rem 2rem;
     @media only screen and (max-width: 768px){
         padding: 1rem 1rem 0rem 1rem;
@@ -13,20 +12,18 @@ const Container = styled.div`
 `;
 
 const HeaderDiv = styled.div`
-    z-index: 10;
-    color:white;
+    color: #233C70;
 `;
 
 const Header = styled.h1`
     z-index: 10;
     font-weight: 43.75rem;
     font-size: 3.125rem;
-    font-family: 'Black Han Sans';
+    font-family: "Darumadrop One", sans-serif;
     font-weight: 400;
-    text-transform: capitalize;
+    text-align: center;
     font-style: normal;
     line-height: 4rem;
-    padding-right: 10rem;
     @media only screen and (max-width: 768px) {
         font-size: 1.88rem;
         padding: 0;
@@ -35,9 +32,9 @@ const Header = styled.h1`
 
 const SectAndNames = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     width: auto;
-    margin-top: 1rem;
+    margin-top: 7rem;
     @media only screen and (max-width: 768px){
         grid-template-columns: 1fr;
     }
@@ -45,14 +42,14 @@ const SectAndNames = styled.div`
 
 const Section = styled.div`
     z-index: 5;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     width: auto;
     height: fit-content;
     margin-bottom: 2rem;
     padding:0;
     margin:0;
-    font-family: 'Khula';
+    font-family: "Oldenburg", serif;
     text-transform: uppercase;
     @media only screen and (max-width: 1216px){
         font-size: 1.8rem;
@@ -76,11 +73,12 @@ const Section = styled.div`
 
 const Name = styled.div`
     z-index: 5;
-    font-family: 'Khula', sans-serif;
-    font-size: 1.15rem;
+    font-family: "Oldenburg", serif;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-transform: none;
     @media only screen and (max-width: 1216px){
         font-size: 1rem;
     }
@@ -97,7 +95,7 @@ const Name = styled.div`
 const Credits = () => {
     return (
         <Container id="credits">
-            <HeaderDiv><Header>Staff who made this issue possible: </Header></HeaderDiv>
+            <HeaderDiv><Header>STAFF WHO MADE THIS ISSUE POSSIBLE</Header></HeaderDiv>
             <SectAndNames>
                 {Object.entries(credits).map(([section, key]) => {
                     return(

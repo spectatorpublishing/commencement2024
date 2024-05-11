@@ -11,7 +11,7 @@ const LetterWrapper = styled.div`
 const LetterEditor = () => {
     return (
         <LetterWrapper>
-            <Title>Letter From The Editor: </Title>
+            <Title>LETTER FROM THE EDITOR: </Title>
             <MobileTitle>Letter From The Editor: </MobileTitle>
             
             <Text>
@@ -19,7 +19,6 @@ const LetterEditor = () => {
                 <p>In this issue, explore the decades-long history of the Columbia Black Students’ Organization and the Barnard Organization of Soul & Solidarity and learn about an in-depth research project documenting the presidency of Barack Obama, CC ’83, through audio and visual material. Uncover the challenges in preserving West Harlem’s arts and culture programs in the face of recent city budget cuts, as well as the relationship between the oldest sidewalk shed in New York City and an iconic home to many of Harlem’s Black elite. Dive into the decline of Black pitchers through the lens of Columbia baseball and Columbia’s senior associate athletic director Cara Holdsclaw’s passion for uplifting women of color in sports. Immerse yourself in a photographic exhibition on Langston Hughes and a guest lecture from Grandmaster Flash, one of the founding fathers of hip-hop. Check out Black History Month events, book, and song recommendations from Spectrum and hear from Alma Mater herself on how to deal with rich besties, tokenizing peers, and campus paparazzi.</p>
                 <p>We hope you’ll join us in our celebration with Spectator’s 2024 Black History Month edition, which inspires us all to pay tribute to the lasting impact of Black stories every day—this month, and every month.</p>
                 <Spacing/>
-                <p>Best wishes,</p>
             </Text>
             <Signatures>
                 <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
@@ -32,9 +31,8 @@ const LetterEditor = () => {
 
 const Title = styled.div`
     color: #233C70;
-    font-family: 'Black Han Sans';
-    font-style: normal;
-    font-weight: 43.75rem;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: bold;
     font-size: 3.125rem;
     line-height: 4rem;
     text-transform: capitalize;
@@ -99,6 +97,8 @@ const Signatures = styled.div`
     font-weight: 25rem;
     font-size: 2.375rem;
     line-height: 3.188rem;
+    display: flex;
+    justify-content: space-evenly;
     
     @media only screen and (max-width: 768px){
         font-size: 1.88rem;
@@ -116,10 +116,10 @@ const Signature = styled.div`
         color: #233C70;
         font-style: normal;
         font-weight: 25rem;
-        font-size: 2.4rem;
+        font-size: 2rem;
         line-height: 3.188rem;
         text-transform: capitalize;
-        text-align: left;
+        text-align: center;
         
         @media only screen and (max-width: 768px) {
             font-size: 2rem;
@@ -133,7 +133,7 @@ const Signature = styled.div`
         font-style: normal;
         font-family: "Special Elite", system-ui;
         font-weight: 25rem;
-        font-size: 1.125rem;
+        font-size:  2rem;
         line-height: 1.813rem;
         margin: 0rem;
 

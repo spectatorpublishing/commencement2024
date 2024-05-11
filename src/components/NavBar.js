@@ -14,18 +14,21 @@ const NavWrapper = styled.div`
 
 const VertNav = styled.div`
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 `;
 
 const Tab = styled.a`
     display: flex;
     text-align: center;
-    width: fit-content;
     border-radius: 20px;
     color: ${props => props.currentSection ? 'rgba(137, 210, 251, 1)' : 'rgba(23, 82, 176, 1)'};
     font-weight: ${props => props.currentSection ? 900 : 400};
     background-color: ${props => props.currentSection ? 'rgba(23, 82, 176, 1)' : 'none'};
     padding: 0.85rem 1.25rem;
-    font-size: 1rem;
+    margin: 0rem 3rem;
+    font-size: 1.3rem;
     :hover {
         color: rgba(137, 210, 251, 1);
         cursor:pointer;
@@ -33,7 +36,7 @@ const Tab = styled.a`
 `;
 
 const NavText = styled.div`
-    font-style: normal;
+    font-family: "Darumadrop One", sans-serif;
     text-transform: uppercase;
 `;
 
