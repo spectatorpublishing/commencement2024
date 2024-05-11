@@ -18,20 +18,29 @@ const LetterWrapper = styled.div`
     }
 `;
 
+const LetterImg = styled.img`
+    width: 100%;
+    height: 100%;
+`;
+
 const LetterEditor = () => {
     return (
         <Wrapper>
             <img src = {tape} style={{position: "absolute", left: "4%", height: "5%", width: "25%"}}/>
             <img src = {tape} style={{position: "absolute", right: "6%", height: "5%", width: "25%"}}/>
-            <img src={letterBack} />
+            <LetterImg src={letterBack} />
             <LetterWrapper>
                 <Title>LETTER FROM THE EDITOR: </Title>
                 <MobileTitle>Letter From The Editor: </MobileTitle>
                 
                 <Text>
-                    <p>Black History Month honors the lives, legacies, and contributions of Black Americans in shaping U.S. history. Every February, Spectator dedicates a special issue to the Black Columbians and residents of Morningside Heights and West Harlem whose​ voices, stories, and accomplishments make up the very fabric of our community.</p>
-                    <p>In this issue, explore the decades-long history of the Columbia Black Students’ Organization and the Barnard Organization of Soul & Solidarity and learn about an in-depth research project documenting the presidency of Barack Obama, CC ’83, through audio and visual material. Uncover the challenges in preserving West Harlem’s arts and culture programs in the face of recent city budget cuts, as well as the relationship between the oldest sidewalk shed in New York City and an iconic home to many of Harlem’s Black elite. Dive into the decline of Black pitchers through the lens of Columbia baseball and Columbia’s senior associate athletic director Cara Holdsclaw’s passion for uplifting women of color in sports. Immerse yourself in a photographic exhibition on Langston Hughes and a guest lecture from Grandmaster Flash, one of the founding fathers of hip-hop. Check out Black History Month events, book, and song recommendations from Spectrum and hear from Alma Mater herself on how to deal with rich besties, tokenizing peers, and campus paparazzi.</p>
-                    <p>We hope you’ll join us in our celebration with Spectator’s 2024 Black History Month edition, which inspires us all to pay tribute to the lasting impact of Black stories every day—this month, and every month.</p>
+                    <p>Dear readers,</p>
+                    <p>The final year at Columbia for the class of 2024 has been marked by the devastating war in Gaza and its rippling effects on campus and throughout the world. As our community mourned and protested the violence—which for many, impacted their family, friends, and homes—students were expected to attend to their academics, extracurriculars, and lives as if it wasn’t at the forefront of everyone’s mind.</p>
+                    <p>In the final weeks of the spring semester, University President Minouche Shafik’s testimony before Congress on antisemitism, the establishment of the “Gaza Solidarity Encampment,” and an occupation of Hamilton Hall reminiscent of the protests of 1968 thrust Columbia into the national spotlight. Our University inspired protests nationally and internationally, becoming the nexus of debates surrounding divestment, free speech, academic freedom, antisemitism, Islamophobia, and more. The students and faculty at the core of this discourse stepped up as the leaders, changemakers, and challengers of higher education as we know it.</p>
+                    <p>This year’s seniors comprise a historic class. Most lost their high school graduations to a global pandemic and spent their first year—and now, the end of their last year—at Columbia behind a computer screen. Some who were scheduled to graduate will no longer cross the stage. Barely a week before the main ceremony, the University canceled Commencement and replaced it with a Convocation “For Students, By Students.”</p>
+                    <p>At a time when it is difficult for many to celebrate, this Spectator special edition addresses campus events head-on while honoring the seniors who exemplify the talent and resilience of our community. From a timeline of the two weeks that forever changed Columbia, to athletes central to the successes of the women’s basketball team, to artists dedicated to the pursuit of their craft, to Spectator’s own graduating seniors, we hope you’ll join us in reflecting on a complex and extraordinary year.</p>
+                    <p>Congratulations to the class of 2024—a class bound to be remembered.</p>
+                    <p>Best wishes,</p>
                     <Spacing/>
                 </Text>
                 <Signatures>

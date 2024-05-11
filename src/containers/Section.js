@@ -30,6 +30,7 @@ const ArticlesContainer = styled.div`
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 5rem;
+    width: 100%;
 `;
 
 

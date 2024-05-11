@@ -29,7 +29,7 @@ const Photo = styled.div`
 `;
 
 const HomeSectionContainer = styled.div`
-    margin-left: 4.5rem;
+    /* margin-left: 4.5rem;
     margin-right: 4.5rem;
     @media only screen and (max-width: 1400px){
         margin-left: 3.5rem;
@@ -42,8 +42,24 @@ const HomeSectionContainer = styled.div`
     @media only screen and (max-width: 768px){
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-    }
+    } */
 `
+
+const TapeOne = styled.img`
+    position: absolute;
+    top: -2rem;
+    right: 6%;
+    height: 10%;
+    width: 20%;
+`
+
+const TapeTwo = styled.img`
+    position: absolute;
+    bottom: -1.5rem;
+    left: 6%;
+    height: 10%;
+    width: 20%;
+`;
 
 const Home = () => {
 
@@ -52,9 +68,9 @@ const Home = () => {
                 <Header>
                     <SpecLogoHeader/>
                     <Photo>
-                        <img src = {tape} style={{position: "absolute", top: "-2rem", right: "6%", height: "10%", width: "20%"}}/>
+                        <TapeOne src = {tape}/>
                         <img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RYKCC2DODRDRFC2KV7J4IO3VJQ.jpg" alt = "commencement illustration" style = {{width: '100%', height: '100%'}}></img>
-                        <img src = {tape} style={{position: "absolute", bottom: "-1.5rem", left: "6%", height: "10%", width: "20%"}}/>
+                        <TapeTwo src = {tape}/>
                     </Photo>
                 </Header>
                 <MobileNavBar/>

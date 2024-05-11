@@ -11,7 +11,6 @@ const LeftArticleWrapper = styled.div`
 
     @media screen and (max-width: 1023px) {
         width: 100%;
-        max-width: 90vw;
         justify-content: center;
         margin: 10px;
     }
@@ -22,9 +21,6 @@ const Column = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    @media screen and (max-width: 1023px) {
-        width: 100%;
-    }
 `;
 
 const MainImage = styled.div`
@@ -36,17 +32,10 @@ const MainImage = styled.div`
 
 const TitleImage = styled.div`
     display: flex;
-    max-width: 100%;
+    width: 100%;
     position: relative;
     align-items: center;
     justify-content: center;
-    
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 `;
 
 const Wrapper = styled.div`
@@ -126,29 +115,44 @@ const ArticleTitle = styled(ArticleInfo)`
     padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
-    @media screen and (max-width: 1200px) {
+
+    @media screen and (max-width: 1024px) {
         font-size: 1.1rem;
-    }
-    @media screen and (max-width: 1023px) {
-        font-size: 1.1rem;
+        margin-left: -10%;
     }
     @media screen and (max-width: 768px) {
         font-size: 0.9rem;
     }
-    @media screen and (max-width: 600px) {
-        font-size: 0.8rem;
-    }
-    @media screen and (max-width: 550px) {
-        font-size: 0.7rem;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 0.6rem;
-    }
     @media screen and (max-width: 450px) {
         font-size: 0.5rem;
     }
-    @media screen and (max-width: 400px) {
-        font-size: 0.4rem;
+`;
+
+const Tape = styled.img`
+    position: absolute;
+    top: -2.5rem;
+    left: 29%;
+    height: 13%;
+`;
+
+const ImageBorder = styled.img`
+    width: 100%;
+    height: 100%;
+`;
+
+const SideSwipe = styled.img`
+    margin-left: -5rem;
+    width: 180%;
+    height: 100%;
+    z-index: 1;
+
+    @media screen and (max-width: 1024px) {
+        width: 135%;
+        margin-left: -10rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 145%;
     }
 `;
 
@@ -157,8 +161,8 @@ const LeftArticle = ({ article }) => {
         <LeftArticleWrapper>     
             <Column>
                 <MainImage>
-                    <img src = {tape} style={{position: "absolute", top: "-2.5rem",  left: "29%", height: "13%"}}/>
-                    <img src = {border} style={{width: "100%", height: "100%"}}/>
+                    <Tape src = {tape}/>
+                    <ImageBorder src = {border}/>
                     <Wrapper>
                         <ArticleImage>
                             <img src={article.image_url} style={{height: "100%", width: "100%", objectFit: "cover"}}/>
@@ -171,7 +175,7 @@ const LeftArticle = ({ article }) => {
             </Column>
             <Column>
                 <TitleImage>
-                    <img src = {swipe} style={{marginLeft: "-5rem", width: "180%", height: "100%", zIndex: 1}}/>
+                    <SideSwipe src = {swipe}/>
                     <ArticleTitle>{article.article_title}</ArticleTitle>
                 </TitleImage>
             </Column>

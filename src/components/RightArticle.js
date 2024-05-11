@@ -4,14 +4,13 @@ import border from "../assets/beigeBorder.png";
 import tape from "../assets/tape.png";
 import swipe from "../assets/lightblueSwipe.png"
 
-const LeftArticleWrapper = styled.div`
+const RightArticleWrapper = styled.div`
     width: 50vw;
     margin: 15px;
     display: flex;
 
     @media screen and (max-width: 1023px) {
         width: 100%;
-        max-width: 90vw;
         justify-content: center;
         margin: 10px;
     }
@@ -22,9 +21,6 @@ const Column = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    @media screen and (max-width: 1023px) {
-        width: 100%;
-    }
 `;
 
 const MainImage = styled.div`
@@ -36,16 +32,10 @@ const MainImage = styled.div`
 
 const TitleImage = styled.div`
     display: flex;
-    max-width: 100%;
+    width: 100%;
     position: relative;
     align-items: center;
     justify-content: center;
-    
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 `;
 
 const Wrapper = styled.div`
@@ -152,19 +142,47 @@ const ArticleTitle = styled(ArticleInfo)`
 `;
 
 
-const LeftArticle = ({ article }) => {
+const Tape = styled.img`
+    position: absolute;
+    top: -2.5rem;
+    left: 29%;
+    height: 13%;
+`;
+
+const ImageBorder = styled.img`
+    width: 100%;
+    height: 100%;
+`;
+
+const SideSwipe = styled.img`
+    width: 180%;
+    height: 100%;
+    z-index: 1;
+
+    @media screen and (max-width: 1024px) {
+        width: 135%;
+        margin-right: -10%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 145%;
+    }
+`;
+
+
+const RightArticle = ({ article }) => {
     return (
-        <LeftArticleWrapper>     
+        <RightArticleWrapper>     
             <Column>
                 <TitleImage>
-                    <img src = {swipe} style={{width: "180%", height: "100%", zIndex: 1}}/>
+                    <SideSwipe src = {swipe} />
                     <ArticleTitle>{article.article_title}</ArticleTitle>
                 </TitleImage>
             </Column>
             <Column>
                 <MainImage>
-                    <img src = {tape} style={{position: "absolute", top: "-2.5rem",  left: "29%", height: "13%"}}/>
-                    <img src = {border} style={{width: "100%", height: "100%"}}/>
+                    <Tape src = {tape}/>
+                    <ImageBorder src = {border}/>
                     <Wrapper>
                         <ArticleImage>
                          <img src={article.image_url} style={{height: "100%", width: "100%", objectFit: "cover"}}/>
@@ -175,8 +193,8 @@ const LeftArticle = ({ article }) => {
                     </Wrapper>
                 </MainImage>
             </Column>
-        </LeftArticleWrapper>
+        </RightArticleWrapper>
     );
 }
 
-export default LeftArticle;
+export default RightArticle;
