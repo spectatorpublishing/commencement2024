@@ -1,17 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import Red from "../assets/Red.svg"
-import Yellow from "../assets/Yellow.svg"
-import Green from "../assets/Green.svg"
-import SmallGreen from "../assets/SmallGreen.svg"
-import SmallRed from "../assets/SmallRed.svg"
-import SmallYellow from "../assets/SmallYellow.svg"
+import border from "../assets/beigeBorder.png";
+import tape from "../assets/tape.png";
+import swipe from "../assets/lightblueSwipe.png"
 
 const LeftArticleWrapper = styled.div`
-    max-width: 70vw;
+    width: 50vw;
     margin: 15px;
     display: flex;
-    z-index: 1;
 
     @media screen and (max-width: 1023px) {
         width: 100%;
@@ -32,42 +28,19 @@ const Column = styled.div`
 `;
 
 const MainImage = styled.div`
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 2;
+    width: 90%;
+    height: 100%;
     position: relative;
-    margin: 0rem 0rem 0rem -10%;
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    @media screen and (max-width: 1023px) {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    @media screen and (max-width: 768px) {
-        max-width: 100%;
-        max-height: 100%;
-
-        img {
-            margin: 0px 0px 0px 0px;
-        }
-    }
+    z-index: 2;
 `;
 
 const TitleImage = styled.div`
     display: flex;
-    z-index: 3;
     max-width: 100%;
-    margin: 0rem 0rem 0rem 0%;
     position: relative;
     align-items: center;
     justify-content: center;
-
+    
     img {
         width: 100%;
         height: 100%;
@@ -75,20 +48,62 @@ const TitleImage = styled.div`
     }
 `;
 
-const ArticleImage = styled.div`
+const Wrapper = styled.div`
     position: absolute;
-    max-height: 80%;
-    max-width: 70%;
-    overflow: hidden;
-    top: 10%;
-    right: 10%;
-    border-radius: 10px;
+    top: 3%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
+
+const ArticleImage = styled.div`
+    height: 80%;
+    width: 92%;
+    overflow: hidden;
+`
+
+const ArticleAuthor = styled.div`
+    color: black;
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 1.8rem;
+    line-height: normal;
+    margin-top: 1rem;
+    text-align: center;
+    @media screen and (max-width: 1200px) {
+        font-size: 1.2rem;
+    }
+    @media screen and (max-width: 1023px) {
+        font-size: 1.1rem;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 1.0rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 0.9rem;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 0.8rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 0.7rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.6rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 0.5rem;
+    }
+`;
 
 const ArticleInfo = styled.div`
     display: flex;
     flex-direction: column;
-    z-index: 1;
     width: fit-content;
     margin: 0rem 0rem 0rem 0rem;
     color: #FFFFFF;
@@ -104,6 +119,7 @@ const ArticleInfo = styled.div`
 const ArticleTitle = styled(ArticleInfo)`
     position: absolute;
     color: #E9DDC7;
+    z-index: 2;
     font-size: 1.4rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -135,72 +151,28 @@ const ArticleTitle = styled(ArticleInfo)`
     }
 `;
 
-const ArticleAuthor = styled(ArticleInfo)`
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    line-height: normal;
-    @media screen and (max-width: 1200px) {
-        font-size: 1.2rem;
-    }
-    @media screen and (max-width: 1023px) {
-        font-size: 1.1rem;
-    }
-    @media screen and (max-width: 768px) {
-        font-size: 1.0rem;
-    }
-    @media screen and (max-width: 600px) {
-        font-size: 0.9rem;
-    }
-    @media screen and (max-width: 550px) {
-        font-size: 0.8rem;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 0.7rem;
-    }
-    @media screen and (max-width: 450px) {
-        font-size: 0.6rem;
-    }
-    @media screen and (max-width: 400px) {
-        font-size: 0.5rem;
-    }
-`;
 
-
-const LeftArticle = ({ 
-    article,
-    color
- }) => {
-    var background
-    var titleb
-    if (color === 0) {
-        background = Yellow
-        titleb = SmallGreen
-    } else if (color === 1) {
-        background = Green
-        titleb = SmallRed
-    } else if (color === 2) {
-        background = Red
-        titleb = SmallYellow
-    }
+const LeftArticle = ({ article }) => {
     return (
         <LeftArticleWrapper>     
             <Column>
                 <TitleImage>
-                    <img alt={article.article_title} src={titleb}/>
+                    <img src = {swipe} style={{width: "180%", height: "100%", zIndex: 1}}/>
                     <ArticleTitle>{article.article_title}</ArticleTitle>
                 </TitleImage>
-                <ArticleAuthor>
-                    BY: {article.article_authors}
-                </ArticleAuthor>
             </Column>
             <Column>
                 <MainImage>
-                    <img alt={article.article_title} src={background}/>
-                    <ArticleImage>
-                        <img src={article.image_url}/>
-                    </ArticleImage>
+                    <img src = {tape} style={{position: "absolute", top: "-2.5rem",  left: "29%", height: "13%"}}/>
+                    <img src = {border} style={{width: "100%", height: "100%"}}/>
+                    <Wrapper>
+                        <ArticleImage>
+                         <img src={article.image_url} style={{height: "100%", width: "100%", objectFit: "cover"}}/>
+                        </ArticleImage>
+                        <ArticleAuthor>
+                            By {article.article_authors}
+                        </ArticleAuthor>
+                    </Wrapper>
                 </MainImage>
             </Column>
         </LeftArticleWrapper>

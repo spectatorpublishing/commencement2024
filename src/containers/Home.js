@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import MobileNavBar from '../components/MobileNavBar';
 import SpecLogoHeader from '../components/SpecLogoHeader';
 import backgroundImage from '../assets/backgroundImage.png';
+import tape from "../assets/tape.png";
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -24,6 +25,7 @@ const Header = styled.div`
 const Photo = styled.div`
     width: 100%;
     height: 80%;
+    position: relative;
 `;
 
 const HomeSectionContainer = styled.div`
@@ -50,7 +52,9 @@ const Home = () => {
                 <Header>
                     <SpecLogoHeader/>
                     <Photo>
+                        <img src = {tape} style={{position: "absolute", top: "-2rem", right: "6%", height: "10%", width: "20%"}}/>
                         <img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RYKCC2DODRDRFC2KV7J4IO3VJQ.jpg" alt = "commencement illustration" style = {{width: '100%', height: '100%'}}></img>
+                        <img src = {tape} style={{position: "absolute", bottom: "-1.5rem", left: "6%", height: "10%", width: "20%"}}/>
                     </Photo>
                 </Header>
                 <MobileNavBar/>

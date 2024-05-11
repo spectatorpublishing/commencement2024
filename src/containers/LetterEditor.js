@@ -1,8 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import tape from "../assets/tape.png";
+import letterBack from '../assets/letterBackground.png';
+
+const Wrapper = styled.div`
+    position: relative;
+    margin-top: 5rem;
+`;
 
 const LetterWrapper = styled.div`
-    padding: 2rem;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    padding: 10rem;
     @media only screen and (max-width: 768px){
         padding: 1rem;
     }
@@ -10,22 +20,27 @@ const LetterWrapper = styled.div`
 
 const LetterEditor = () => {
     return (
-        <LetterWrapper>
-            <Title>LETTER FROM THE EDITOR: </Title>
-            <MobileTitle>Letter From The Editor: </MobileTitle>
-            
-            <Text>
-                <p>Black History Month honors the lives, legacies, and contributions of Black Americans in shaping U.S. history. Every February, Spectator dedicates a special issue to the Black Columbians and residents of Morningside Heights and West Harlem whose​ voices, stories, and accomplishments make up the very fabric of our community.</p>
-                <p>In this issue, explore the decades-long history of the Columbia Black Students’ Organization and the Barnard Organization of Soul & Solidarity and learn about an in-depth research project documenting the presidency of Barack Obama, CC ’83, through audio and visual material. Uncover the challenges in preserving West Harlem’s arts and culture programs in the face of recent city budget cuts, as well as the relationship between the oldest sidewalk shed in New York City and an iconic home to many of Harlem’s Black elite. Dive into the decline of Black pitchers through the lens of Columbia baseball and Columbia’s senior associate athletic director Cara Holdsclaw’s passion for uplifting women of color in sports. Immerse yourself in a photographic exhibition on Langston Hughes and a guest lecture from Grandmaster Flash, one of the founding fathers of hip-hop. Check out Black History Month events, book, and song recommendations from Spectrum and hear from Alma Mater herself on how to deal with rich besties, tokenizing peers, and campus paparazzi.</p>
-                <p>We hope you’ll join us in our celebration with Spectator’s 2024 Black History Month edition, which inspires us all to pay tribute to the lasting impact of Black stories every day—this month, and every month.</p>
-                <Spacing/>
-            </Text>
-            <Signatures>
-                <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
-                <Spacing/>
-                <Signature><div className='name'>Esha Karam</div><div className='title'>Managing Editor</div></Signature>
-            </Signatures>
-        </LetterWrapper>
+        <Wrapper>
+            <img src = {tape} style={{position: "absolute", left: "4%", height: "5%", width: "25%"}}/>
+            <img src = {tape} style={{position: "absolute", right: "6%", height: "5%", width: "25%"}}/>
+            <img src={letterBack} />
+            <LetterWrapper>
+                <Title>LETTER FROM THE EDITOR: </Title>
+                <MobileTitle>Letter From The Editor: </MobileTitle>
+                
+                <Text>
+                    <p>Black History Month honors the lives, legacies, and contributions of Black Americans in shaping U.S. history. Every February, Spectator dedicates a special issue to the Black Columbians and residents of Morningside Heights and West Harlem whose​ voices, stories, and accomplishments make up the very fabric of our community.</p>
+                    <p>In this issue, explore the decades-long history of the Columbia Black Students’ Organization and the Barnard Organization of Soul & Solidarity and learn about an in-depth research project documenting the presidency of Barack Obama, CC ’83, through audio and visual material. Uncover the challenges in preserving West Harlem’s arts and culture programs in the face of recent city budget cuts, as well as the relationship between the oldest sidewalk shed in New York City and an iconic home to many of Harlem’s Black elite. Dive into the decline of Black pitchers through the lens of Columbia baseball and Columbia’s senior associate athletic director Cara Holdsclaw’s passion for uplifting women of color in sports. Immerse yourself in a photographic exhibition on Langston Hughes and a guest lecture from Grandmaster Flash, one of the founding fathers of hip-hop. Check out Black History Month events, book, and song recommendations from Spectrum and hear from Alma Mater herself on how to deal with rich besties, tokenizing peers, and campus paparazzi.</p>
+                    <p>We hope you’ll join us in our celebration with Spectator’s 2024 Black History Month edition, which inspires us all to pay tribute to the lasting impact of Black stories every day—this month, and every month.</p>
+                    <Spacing/>
+                </Text>
+                <Signatures>
+                    <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
+                    <Spacing/>
+                    <Signature><div className='name'>Esha Karam</div><div className='title'>Managing Editor</div></Signature>
+                </Signatures>
+            </LetterWrapper>
+        </Wrapper>
     );    
 };
 
