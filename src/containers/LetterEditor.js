@@ -15,13 +15,27 @@ const LetterWrapper = styled.div`
     top: 8%;
     left: 0;
     padding: 10rem;
+    @media only screen and (max-width: 1250px){
+        top: 3%;
+    }
+
     @media only screen and (max-width: 768px){
+        padding: 1rem;
+    }
+
+    @media only screen and (max-width: 1080px){
+        position: static;
+        top: 0%;
         padding: 1rem;
     }
 `;
 
 const LetterImg = styled.img`
     width: 100%;
+
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `;
 
 const LeftTape = styled.img`
@@ -29,6 +43,10 @@ const LeftTape = styled.img`
     top: -5%;
     left: -4%;
     width: 23%;
+
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `
 
 const RightTape = styled.img`
@@ -36,6 +54,10 @@ const RightTape = styled.img`
     top: -5%;
     right: -4%;
     width: 23%;
+
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `
 
 const LetterEditor = () => {
@@ -75,6 +97,10 @@ const Title = styled.div`
     font-size: 3.125rem;
     line-height: 4rem;
     text-transform: capitalize;
+
+    @media only screen and (max-width: 1250px){
+        font-size: 2.8rem;
+    }
 
     @media only screen and (max-width: 768px) {
         font-size: 1.88rem;
@@ -119,6 +145,10 @@ const Text = styled.div`
     font-weight: 25rem;
     font-size: 1.29rem;
     line-height: 2rem;
+
+    @media only screen and (max-width: 1250px){
+        font-size: 1rem;
+    }
     
     @media only screen and (max-width: 768px){
         font-size: 1rem;
@@ -140,8 +170,8 @@ const Signatures = styled.div`
     justify-content: space-evenly;
     
     @media only screen and (max-width: 768px){
-        font-size: 1.88rem;
         text-align: left;
+        flex-direction: column;
     }    
 `;
 
@@ -159,13 +189,18 @@ const Signature = styled.div`
         line-height: 3.188rem;
         text-transform: capitalize;
         text-align: center;
+
+        @media only screen and (max-width: 1250px){
+            font-size: 1.5rem;
+        }
+
         
         @media only screen and (max-width: 768px) {
-            font-size: 2rem;
+            font-size: 1.5rem;
             line-height: 3px;
             padding-top: 15px;
+            text-align: left;
         }
-       
     }
     .title {
         color: #233C70;
@@ -175,6 +210,10 @@ const Signature = styled.div`
         font-size:  2rem;
         line-height: 1.813rem;
         margin: 0rem;
+
+        @media only screen and (max-width: 1250px){
+            font-size: 1.5rem;
+        }
 
         @media only screen and (max-width: 768px){
             font-size: 1rem;

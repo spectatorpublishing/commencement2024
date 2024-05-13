@@ -8,6 +8,10 @@ const Wrapper = styled.div`
     overflow: hidden;
     z-index: 2;
     margin-top: -16%;
+
+    @media only screen and (max-width: 1080px){
+        position: static;
+    }
 `;
 
 const Container = styled.div`
@@ -15,6 +19,7 @@ const Container = styled.div`
     color: #233C70;
     padding: 20rem 2rem 0rem 2rem;
     z-index: 5;
+    
     @media only screen and (max-width: 768px){
         padding: 1rem 1rem 0rem 1rem;
     }
@@ -24,6 +29,9 @@ const BackgroundImg = styled.img`
     position: absolute;
     width: 100%;
     z-index: -1;
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `
 
 const HeaderDiv = styled.div`
@@ -41,7 +49,7 @@ const Header = styled.h1`
     line-height: 4rem;
     @media only screen and (max-width: 768px) {
         font-size: 1.88rem;
-        padding: 0;
+        padding-top: 5rem;
     }
 `;
 
@@ -52,6 +60,11 @@ const SectAndNames = styled.div`
     width: auto;
     margin-top: 7rem;
     padding: 0 7rem;
+
+    @media only screen and (max-width: 1080px){
+        padding: 0 3rem;
+    }
+
     @media only screen and (max-width: 768px){
         grid-template-columns: 1fr;
     }
@@ -68,12 +81,13 @@ const Section = styled.div`
     margin:0;
     font-family: "Charter", sans-serif;
     text-transform: uppercase;
+
     @media only screen and (max-width: 1216px){
         font-size: 1.8rem;
         width: 18rem;
     }
     @media only screen and (max-width: 1024px){
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         width: 16rem;
     }
     @media only screen and (max-width: 768px){
@@ -99,8 +113,8 @@ const Name = styled.div`
     @media only screen and (max-width: 1216px){
         font-size: 1rem;
     }
-    @media only screen and (max-width: 1024px){
-        font-size: 0.8rem;
+    @media only screen and (max-width: 1080px){
+        font-size: 0.6rem;
     }
     @media only screen and (max-width: 768px){
         font-size:1rem;

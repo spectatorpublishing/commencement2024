@@ -43,9 +43,9 @@ const MobileMenu = styled.div`
     z-index: 10;
     margin: 2rem 1rem;
     border-radius: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Charter", sans-serif;
     font-weight: 300;
-    background-color: #4F3850;
+    background-color: #E9DDC7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F8BEB9;
 
@@ -78,11 +78,11 @@ const Link = styled.a`
     width: fit-content;
     margin-left: auto;
     border-radius: 20px;
-    color: ${props => props.currentSection ? '#F4D1D8' : '#F9B71A'};
+    color: ${props => props.currentSection ? 'rgba(137, 210, 251, 1)' : 'rgba(23, 82, 176, 1)'};
     font-weight: ${props => props.currentSection ? 900 : 400};
-    background-color: ${props => props.currentSection ? 'rgba(244, 209, 216, 0.2)' : '#4F3850'};
+    background-color: ${props => props.currentSection ? 'rgba(23, 82, 176, 1)' : 'none'};
     &:hover{
-         color: #F4D1D8;
+         color: rgba(137, 210, 251, 1);
          cursor:pointer;
     }
 `;
@@ -96,7 +96,7 @@ const NavText = styled.div`
 const Bullet = styled.span`
     width: 5px;
     height: 5px;
-    background-color: ${(props) => (props.currentSection ? '#F4D1D8' : '#F9B71A')};
+    background-color: ${(props) => (props.currentSection ? 'rgba(137, 210, 251, 1)' : 'rgba(23, 82, 176, 1)')};
     border-radius: 50%;
     margin: auto 0rem;
 `;

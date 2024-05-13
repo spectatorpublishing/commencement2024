@@ -58,9 +58,9 @@ const ArticleImage = styled.div`
 const ArticleAuthor = styled.div`
     color: black;
     font-family: "Charter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: normal;
-    margin-top: 1rem;
+    padding: 0.3rem;
     text-align: center;
     @media screen and (max-width: 1200px) {
         font-size: 1.2rem;

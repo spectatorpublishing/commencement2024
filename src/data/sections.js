@@ -17,7 +17,7 @@ export const sections = [
         url: "/opinion",
     },
     {
-        title: "Arts and Culture",
+        title: "A&C",
         url: "/a&c",
     },
     {

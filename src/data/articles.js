@@ -93,28 +93,52 @@ export const opinion_articles = [
 
   export const sports_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2024/02/13/tobe-carberry-a-coach-and-role-model-for-columbia-mens-basketball/",
-      "article_title": "Tobe Carberry: A coach and role model for Columbia men’s basketball",
-      "article_authors": "Takashi Williams, Arielle Rieder",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YKMEGMZXJZFVXNPIJT73ABEX4U.jpg"
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/11/wrestler-maya-letona-triumphs-against-adversity-leaves-mark-at-columbia/",
+      "article_title": "Wrestler Maya Letona triumphs against adversity, leaves mark at Columbia",
+      "article_authors": "Emoly Michaelsen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QXGVAIAC4VCVDBWKV36Q76DPDY.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2024/02/14/pitching-against-the-odds-exploring-the-declining-number-of-black-pitchers-through-the-lens-of-columbias-baseball-players/",
-      "article_title": "Pitching against the odds: Exploring the declining number of Black pitchers through the lens of Columbia’s baseball players",
-      "article_authors": "Takashi Williams",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WYBTVWG5JZG2HNIW76S4WL4ACI.jpeg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/sports/2024/02/12/lift-as-they-rise-cara-holdsclaw-on-elevating-women-in-sports/",
-      "article_title": "‘Lift as they rise’: Cara Holdsclaw on elevating women in sports",
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/11/the-ethos-of-a-goalkeeper-paige-nurkin-cc-24-on-defending-her-net/",
+      "article_title": "The ethos of a goalkeeper: Paige Nurkin, CC ’24, on defending her net",
       "article_authors": "Sydney Stoller",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VBWPIOK2OBFWRALYCXVPMHUC74.JPG"
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4UZ2GOYO5FHSJG7XJZ2AXWHJBA.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2024/02/16/remembering-jim-mcmillian-cc-70-nba-champion-columbia-legend-and-father/",
-      "article_title": "Remembering Jim McMillian, CC ’70: NBA champion, Columbia legend, and father",
-      "article_authors": "Heather Chen",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZAAKSEUBNBG2PENQF4BBV3TBGA.jpeg"
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/11/beyond-the-finish-line-the-legacy-of-nikki-vanasse-cc-24/",
+      "article_title": "Beyond the finish line: The legacy of Nikki Vanasse, CC ’24",
+      "article_authors": "Ashley Flores",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KXJ5XUYDRB3RIO7UBO5FSZDCM.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/07/from-hoops-to-handshakes-columbia-basketball-star-nicole-stephens-bc-24/",
+      "article_title": "From hoops to handshakes: Columbia basketball star Nicole Stephens, BC ’24",
+      "article_authors": "Arielle Rieder, Heather Chen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6ZR4ZWBHFRBPNMRQ3BTVIVFAL4.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/04/29/paige-lauder-cc-24-the-ultimate-teammate/",
+      "article_title": "Paige Lauder, CC ’24: ‘The ultimate teammate’",
+      "article_authors": "Arielle Rieder, Takashi Williams",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NESWO6ZSIVGRXNX6HXL2LXLPQI.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/04/28/harold-castiaux-belgian-squash-star/",
+      "article_title": "Harold Castiaux, SEAS ’24: Belgian squash star",
+      "article_authors": "Arielle Rieder",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3U56Q3RCDRDXRAP4I4CIWG7UXQ.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/12/cole-hage-cc-24-is-no-stranger-to-winning-but-he-knows-how-to-lose-too/",
+      "article_title": "Cole Hage, CC ’24, is no stranger to winning. But he knows how to lose, too.",
+      "article_authors": "Benjamin Rubin",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UYILU6QZHJGINNFHUCXZA2X6QM.jpeg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/05/12/resilience-in-the-face-of-injury-liam-murphy-cc-24-on-his-columbia-basketball-career/",
+      "article_title": "Resilience in the face of injury: Liam Murphy, CC ’24, on his Columbia basketball career",
+      "article_authors": "Takashi Williams, Lucas Metzger",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YEWTDTUMCNDBNCB57RBELQSIDE.jpg"
     },
   ];
 

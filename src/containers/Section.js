@@ -19,6 +19,10 @@ const BackgroundImg = styled.img`
     width: 100%;
     top: 0%;
     z-index: 0;
+
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `;
 
 const Container = styled.div`
