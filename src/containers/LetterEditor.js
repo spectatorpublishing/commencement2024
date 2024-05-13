@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import tape from "../assets/tape.png";
+import leftTape from "../assets/leftTape.png";
+import rightTape from "../assets/rightTape.png";
 import letterBack from '../assets/letterBackground.png';
 
 const Wrapper = styled.div`
     position: relative;
     margin-top: 5rem;
+    z-index: 5;
 `;
 
 const LetterWrapper = styled.div`
@@ -23,11 +25,25 @@ const LetterImg = styled.img`
     height: 100%;
 `;
 
+const LeftTape = styled.img`
+    position: absolute;
+    top: -5%;
+    left: -4%;
+    width: 23%;
+`
+
+const RightTape = styled.img`
+    position: absolute;
+    top: -5%;
+    right: -4%;
+    width: 23%;
+`
+
 const LetterEditor = () => {
     return (
         <Wrapper>
-            <img src = {tape} style={{position: "absolute", left: "4%", height: "5%", width: "25%"}}/>
-            <img src = {tape} style={{position: "absolute", right: "6%", height: "5%", width: "25%"}}/>
+            <LeftTape src = {leftTape}/>
+            <RightTape src = {rightTape}/>
             <LetterImg src={letterBack} />
             <LetterWrapper>
                 <Title>LETTER FROM THE EDITOR: </Title>

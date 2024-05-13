@@ -2,8 +2,15 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import {sections} from '../data/sections';
 import { NavHashLink } from 'react-router-hash-link';
+import navBackground from '../assets/navbar.png';
+
+const Container = styled.div`
+    width: 100%;
+    position: relative;
+`;
 
 const NavWrapper = styled.div`
+    position: relative;
     a {
         text-decoration: none;
     }
@@ -12,14 +19,23 @@ const NavWrapper = styled.div`
     }
 `;
 
+const NavImage = styled.img`
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    top: -40%;
+`;
+
 const VertNav = styled.div`
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    z-index: 5;
 `;
 
 const Tab = styled.a`
+    z-index: 5;
     display: flex;
     text-align: center;
     border-radius: 20px;
@@ -29,31 +45,37 @@ const Tab = styled.a`
     padding: 0.85rem 1.25rem;
     margin: 0rem 3rem;
     font-size: 1.3rem;
+    
     :hover {
         color: rgba(137, 210, 251, 1);
         cursor:pointer;
+        z-index: 5;
     }
 `;
 
 const NavText = styled.div`
     font-family: "Darumadrop One", sans-serif;
     text-transform: uppercase;
+    z-index: 5;
 `;
 
 
 const NavBar = ({isSection}) => {
     return(
-        <NavWrapper isSection={isSection}>
-            <VertNav isSection={isSection}>
-            {sections.map((section, index) => (
-                <NavHashLink smooth to={section.url}>
-                    <Tab currentSection = {window.location.pathname === section.url} key={index}>
-                        <NavText>{section.title}</NavText>
-                    </Tab>
-                </NavHashLink>
-            ))}
-            </VertNav>
-        </NavWrapper>
+        <Container>
+            <NavImage src={navBackground} />
+            <NavWrapper isSection={isSection}>
+                <VertNav isSection={isSection}>
+                {sections.map((section, index) => (
+                    <NavHashLink smooth to={section.url}>
+                        <Tab currentSection = {window.location.pathname === section.url} key={index}>
+                            <NavText>{section.title}</NavText>
+                        </Tab>
+                    </NavHashLink>
+                ))}
+                </VertNav>
+            </NavWrapper>
+        </Container>
     );
 };
 

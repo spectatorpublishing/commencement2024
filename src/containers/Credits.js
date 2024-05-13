@@ -1,22 +1,37 @@
 import React from 'react';
 import styled from 'styled-components';
 import { credits } from '../data/credits'
+import creditBackground from '../assets/homeBackground.png';
+
+const Wrapper = styled.div`
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: -16%;
+`;
 
 const Container = styled.div`
     margin-top: 4rem;
     color: #233C70;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 20rem 2rem 0rem 2rem;
+    z-index: 5;
     @media only screen and (max-width: 768px){
         padding: 1rem 1rem 0rem 1rem;
     }
 `;
+
+const BackgroundImg = styled.img`
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+`
 
 const HeaderDiv = styled.div`
     color: #233C70;
 `;
 
 const Header = styled.h1`
-    z-index: 10;
+    z-index: 5;
     font-weight: 43.75rem;
     font-size: 3.125rem;
     font-family: "Darumadrop One", sans-serif;
@@ -31,6 +46,7 @@ const Header = styled.h1`
 `;
 
 const SectAndNames = styled.div`
+    z-index: 5;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     width: auto;
@@ -92,26 +108,31 @@ const Name = styled.div`
 
 
 
+
+
 const Credits = () => {
     return (
-        <Container id="credits">
-            <HeaderDiv><Header>STAFF WHO MADE THIS ISSUE POSSIBLE</Header></HeaderDiv>
-            <SectAndNames>
-                {Object.entries(credits).map(([section, key]) => {
-                    return(
-                        <Section> {section} 
-                        <br/>
-                        {key.map((person, index) => {
-                            return(
-                                <Name key={index}>{person.staff_name}, {person.title}</Name>
-                            );
-                        })}
-                        <br/>
-                        </Section>
-                    );
-                })}
-            </SectAndNames>
-        </Container>
+        <Wrapper>
+            <BackgroundImg src={creditBackground}/>
+            <Container id="credits">
+                <HeaderDiv><Header>STAFF WHO MADE THIS ISSUE POSSIBLE</Header></HeaderDiv>
+                <SectAndNames>
+                    {Object.entries(credits).map(([section, key]) => {
+                        return(
+                            <Section> {section} 
+                            <br/>
+                            {key.map((person, index) => {
+                                return(
+                                    <Name key={index}>{person.staff_name}, {person.title}</Name>
+                                );
+                            })}
+                            <br/>
+                            </Section>
+                        );
+                    })}
+                </SectAndNames>
+            </Container>
+        </Wrapper>
     )
 };
 
