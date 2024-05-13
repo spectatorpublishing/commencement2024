@@ -9,8 +9,8 @@ export const sections = [
         url: "/uni-news",
     },
     {
-        title: "City",
-        url: "/city-news",
+        title: "Crosswords",
+        url: "/Crosswords",
     },
     {
         title: "Opinion",
@@ -29,7 +29,7 @@ export const sections = [
         url: "/spectrum",
     },
     {
-        title: "Podcasts",
-        url: "/podcasts",
+        title: "Audio",
+        url: "/Audio",
     }
 ];

@@ -37,7 +37,7 @@ export const ac_articles = [
     "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TE7T6KNUMBAFNF2XC7B45CNONY.jpg"
   },
 ];
-export const city_news_articles = 
+export const crosswords_articles = 
 [
   {
     "article_link": "https://www.columbiaspectator.com/city-news/2024/02/13/preserving-a-community-anchor-west-harlems-arts-and-culture-programs-work-to-maintain-and-expand-economic-and-community-building-initiatives/",
@@ -72,7 +72,7 @@ export const opinion_articles = [
     "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6KLXODPWG5GSLEXXAF4O4OXMCA.jpg"
   },
 ];
-  export const podcasts_articles = [
+  export const audio_articles = [
     {
       "article_link": "https://www.columbiaspectator.com/podcasts/2024/02/13/riverside-church-and-the-road-to-racial-justice/",
       "article_title": "Riverside Church and the road to racial justice",
