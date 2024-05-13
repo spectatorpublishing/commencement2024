@@ -62,6 +62,11 @@ const ArticleAuthor = styled.div`
     line-height: normal;
     padding: 0.3rem;
     text-align: center;
+    
+    @media only screen and (min-width: 1680px){
+        font-size: 1.3rem;
+    }
+
     @media screen and (max-width: 1180px) {
         font-size: 0.75rem;
     }
@@ -106,6 +111,10 @@ const ArticleTitle = styled(ArticleInfo)`
     z-index: 2;
     font-size: 1.2rem;
     padding: 10% 5%;
+
+    @media only screen and (min-width: 1680px){
+        font-size: 1.6rem;
+    }
     
 
     @media screen and (max-width: 1080px) {

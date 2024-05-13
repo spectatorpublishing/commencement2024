@@ -9,6 +9,11 @@ const Container = styled.div`
     position: relative;
     z-index: 5;
     margin: auto;
+
+    @media only screen and (min-width: 1680px){
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+    }
 `;
 
 const NavWrapper = styled.div`
@@ -26,6 +31,14 @@ const NavImage = styled.img`
     z-index: 0;
     width: 100%;
     top: -25%;
+    @media only screen and (min-width: 1680px){
+        top: -30%;
+    }
+
+    @media only screen and (min-width: 1440px) and (max-width: 1680px){
+        top: -40%;
+    }
+
     @media only screen and (max-width: 1415px){
         top: -40%;
     }
@@ -60,6 +73,10 @@ const Tab = styled.a`
         z-index: 5;
     }
 
+    @media only screen and (min-width: 1680px){
+        font-size: 2rem;
+    }
+
     @media only screen and (max-width: 1415px){
         margin: 0rem 2rem;
         font-size: 1rem;
@@ -71,7 +88,6 @@ const NavText = styled.div`
     font-family: "Charter", sans-serif;
     text-transform: uppercase;
     z-index: 5;
-    
 `;
 
 

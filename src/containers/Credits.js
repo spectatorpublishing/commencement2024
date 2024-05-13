@@ -61,6 +61,9 @@ const SectAndNames = styled.div`
     height: 120rem;
     margin-top: 7rem;
     padding: 0 7rem;
+    @media only screen and (min-width: 1680px){
+        height: 150rem;
+    }
 
     @media only screen and (max-width: 1080px){
         padding: 0 3rem;
@@ -83,6 +86,10 @@ const Section = styled.div`
     margin:0;
     font-family: "Charter", sans-serif;
     text-transform: uppercase;
+
+    @media only screen and (min-width: 1680px){
+        font-size: 1.7rem;
+    }
 
     @media only screen and (max-width: 1216px){
         font-size: 1.8rem;
@@ -112,6 +119,10 @@ const Name = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-transform: none;
+    @media only screen and (min-width: 1680px){
+        font-size: 1.4rem;
+    }
+
     @media only screen and (max-width: 1216px){
         font-size: 0.9rem;
     }

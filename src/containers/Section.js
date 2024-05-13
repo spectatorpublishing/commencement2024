@@ -57,6 +57,10 @@ const Header = styled.div`
     font-family: 'against', sans-serif;
     color: #233C70;
 
+    @media only screen and (min-width: 1680px){
+        font-size: 6rem;
+    }
+
     @media screen and (max-width: 600px) {
         font-size: 2rem;
     }
