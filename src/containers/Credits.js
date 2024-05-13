@@ -55,18 +55,20 @@ const Header = styled.h1`
 
 const SectAndNames = styled.div`
     z-index: 5;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
-    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 120rem;
     margin-top: 7rem;
     padding: 0 7rem;
 
     @media only screen and (max-width: 1080px){
         padding: 0 3rem;
+        height: 200rem;
     }
 
     @media only screen and (max-width: 768px){
-        grid-template-columns: 1fr;
+        height: fit-content;
     }
 `;
 
@@ -111,13 +113,14 @@ const Name = styled.div`
     margin-bottom: 1rem;
     text-transform: none;
     @media only screen and (max-width: 1216px){
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
-    @media only screen and (max-width: 1080px){
-        font-size: 0.6rem;
-    }
+
     @media only screen and (max-width: 768px){
         font-size:1rem;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 `;
 

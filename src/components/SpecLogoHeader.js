@@ -11,10 +11,10 @@ const SpecLogo = styled.div`
 
 const Image = styled.img`
     display: block;
-    width: 36rem;
-    height: 8vh;
+    width: 36vw;
+    height: 10%;
     @media only screen and (max-width: 768px){
-        width: 10rem;
+        
     }
 `;
 

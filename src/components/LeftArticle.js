@@ -124,7 +124,7 @@ const ArticleTitle = styled(ArticleInfo)`
 
 const Tape = styled.img`
     position: absolute;
-    top: -2.5rem;
+    top: -10.5%;
     left: 29%;
     height: 13%;
 `;
