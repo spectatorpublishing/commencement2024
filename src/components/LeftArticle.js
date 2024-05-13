@@ -57,11 +57,8 @@ const ArticleImage = styled.div`
 
 const ArticleAuthor = styled.div`
     color: black;
-    font-family: "Gluten", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
-    font-size: 1.8rem;
+    font-family: "Charter", sans-serif;
+    font-size: 1.2rem;
     line-height: normal;
     margin-top: 1rem;
     text-align: center;
@@ -98,10 +95,7 @@ const ArticleInfo = styled.div`
     margin: 0rem 0rem 0rem 0rem;
     color: #FFFFFF;
     text-align: center;
-    font-family: "Gluten", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
+    font-family: "Charter", sans-serif;
     line-height: normal;
     text-transform: uppercase;
 `;
@@ -110,7 +104,7 @@ const ArticleTitle = styled(ArticleInfo)`
     position: absolute;
     color: #DEF1FF;
     z-index: 2;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;

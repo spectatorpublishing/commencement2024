@@ -34,7 +34,7 @@ const Header = styled.h1`
     z-index: 5;
     font-weight: 43.75rem;
     font-size: 3.125rem;
-    font-family: "Darumadrop One", sans-serif;
+    font-family: 'Against', sans-serif;
     font-weight: 400;
     text-align: center;
     font-style: normal;
@@ -51,6 +51,7 @@ const SectAndNames = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     width: auto;
     margin-top: 7rem;
+    padding: 0 7rem;
     @media only screen and (max-width: 768px){
         grid-template-columns: 1fr;
     }
@@ -65,7 +66,7 @@ const Section = styled.div`
     margin-bottom: 2rem;
     padding:0;
     margin:0;
-    font-family: "Oldenburg", serif;
+    font-family: "Charter", sans-serif;
     text-transform: uppercase;
     @media only screen and (max-width: 1216px){
         font-size: 1.8rem;
@@ -89,7 +90,7 @@ const Section = styled.div`
 
 const Name = styled.div`
     z-index: 5;
-    font-family: "Oldenburg", serif;
+    font-family: "Charter", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 1rem;

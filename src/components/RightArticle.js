@@ -57,37 +57,20 @@ const ArticleImage = styled.div`
 
 const ArticleAuthor = styled.div`
     color: black;
-    font-family: "Gluten", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
-    font-size: 1.8rem;
+    font-family: "Charter", sans-serif;
+    font-size: 1rem;
     line-height: normal;
     margin-top: 1rem;
     text-align: center;
-    @media screen and (max-width: 1200px) {
-        font-size: 1.2rem;
-    }
+   
     @media screen and (max-width: 1023px) {
         font-size: 1.1rem;
     }
     @media screen and (max-width: 768px) {
         font-size: 1.0rem;
     }
-    @media screen and (max-width: 600px) {
-        font-size: 0.9rem;
-    }
-    @media screen and (max-width: 550px) {
-        font-size: 0.8rem;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 0.7rem;
-    }
     @media screen and (max-width: 450px) {
         font-size: 0.6rem;
-    }
-    @media screen and (max-width: 400px) {
-        font-size: 0.5rem;
     }
 `;
 
@@ -98,10 +81,7 @@ const ArticleInfo = styled.div`
     margin: 0rem 0rem 0rem 0rem;
     color: #FFFFFF;
     text-align: center;
-    font-family: "Gluten", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
+    font-family: "Charter", sans-serif;
     line-height: normal;
     text-transform: uppercase;
 `;
@@ -110,36 +90,21 @@ const ArticleTitle = styled(ArticleInfo)`
     position: absolute;
     color: #E9DDC7;
     z-index: 2;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
-    @media screen and (max-width: 1200px) {
-        font-size: 1.1rem;
-    }
     @media screen and (max-width: 1023px) {
         font-size: 1.1rem;
     }
     @media screen and (max-width: 768px) {
         font-size: 0.9rem;
     }
-    @media screen and (max-width: 600px) {
-        font-size: 0.8rem;
-    }
-    @media screen and (max-width: 550px) {
-        font-size: 0.7rem;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 0.6rem;
-    }
     @media screen and (max-width: 450px) {
         font-size: 0.5rem;
     }
-    @media screen and (max-width: 400px) {
-        font-size: 0.4rem;
-    }
-`;
+`
 
 
 const Tape = styled.img`

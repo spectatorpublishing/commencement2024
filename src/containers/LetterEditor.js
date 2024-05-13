@@ -46,8 +46,8 @@ const LetterEditor = () => {
             <RightTape src = {rightTape}/>
             <LetterImg src={letterBack} />
             <LetterWrapper>
-                <Title>LETTER FROM THE EDITOR: </Title>
-                <MobileTitle>Letter From The Editor: </MobileTitle>
+                <Title>LETTER FROM THE EDITOR</Title>
+                <MobileTitle>Letter From The Editor</MobileTitle>
                 
                 <Text>
                     <p>Dear readers,</p>
@@ -71,7 +71,7 @@ const LetterEditor = () => {
 
 const Title = styled.div`
     color: #233C70;
-    font-family: "Darumadrop One", sans-serif;
+    font-family: 'Against', sans-serif;
     font-weight: bold;
     font-size: 3.125rem;
     line-height: 4rem;
@@ -96,7 +96,7 @@ const Title = styled.div`
 const MobileTitle = styled.div`
     
     color: #233C70;
-    font-family: 'Black Han Sans';
+    font-family: 'against', sans-serif;
     font-style: normal;
     font-weight: 43.75rem;
     font-size: 3.125rem;
@@ -115,7 +115,7 @@ const MobileTitle = styled.div`
 const Text = styled.div`
     p{
     color: #233C70;
-    font-family: "Oldenburg", serif;
+    font-family: "Charter", sans-serif;
     font-style: normal;
     font-weight: 25rem;
     font-size: 1.29rem;
@@ -171,7 +171,7 @@ const Signature = styled.div`
     .title {
         color: #233C70;
         font-style: normal;
-        font-family: "Special Elite", system-ui;
+        font-family: "Charter", sans-serif;
         font-weight: 25rem;
         font-size:  2rem;
         line-height: 1.813rem;

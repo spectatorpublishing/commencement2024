@@ -5,22 +5,34 @@ import MobileNavBar from '../components/MobileNavBar';
 import LeftArticle from '../components/LeftArticle';
 import RightArticle from '../components/RightArticle';
 import SpecLogoHeader from '../components/SpecLogoHeader';
-import backgroundImage from '../assets/backgroundImage.png';
-import banner from '../assets/sectionBanner.png';
-import tape from "../assets/tape.png";
+import sectionBackground from '../assets/sectionBackground.png';
+
+const Wrapper = styled.div`
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    background-color: #BFC4DA;
+`
+
+const BackgroundImg = styled.img`
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    z-index: 0;
+`;
 
 const Container = styled.div`
     min-height: 100vh;
-    background-color: rgba(158, 206, 235, 0.6);
-    background-image: url(${backgroundImage});
+    z-index: 5;
     display: flex;
     flex-direction: column;
     justify-content: center;
 `;
 
-const Photo = styled.div`
-    margin-bottom: 3rem;
-    position: relative;
+const SectionWrapper = styled.div`
+    margin-top: 7%;
+    z-index: 5;
+    padding: 0 5%;
 `;
 
 const ArticlesContainer = styled.div`
@@ -33,23 +45,36 @@ const ArticlesContainer = styled.div`
     width: 100%;
 `;
 
+const Header = styled.div`
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    z-index: 5;
+    margin-bottom: 10%;
+    font-family: 'against', sans-serif;
+    color: #233C70;
+`;
 
-const Section = ({ articles }) => {
+
+const Section = ({ articles, header }) => {
     return (
-        <Container>
-            <SpecLogoHeader/>
-            <Photo>
-                <img src = {tape} style={{position: "absolute", top: "-2rem", right: "6%", height: "25%", width: "20%"}}/>
-                <img src={`${banner}`} alt = "commencement illustration shortened" style = {{width: '100%', height: '100%'}}/>
-            </Photo>
-            <NavBar isSection />
-            <MobileNavBar />
-            <ArticlesContainer>
-                {articles.map((article, index) => (
-                    (index % 2 === 0) ? <a style={{textDecoration:'none'}} href={article.article_link}><LeftArticle article={article} /></a> : <a style={{textDecoration:'none'}} href={article.article_link}><RightArticle article={article}/></a>
-                ))}
-            </ArticlesContainer>
-        </Container>
+        <Wrapper>
+             <Container>
+                    <SpecLogoHeader/>
+                    <SectionWrapper>
+                        <Header>{header}</Header>
+                        <NavBar isSection />
+                        <MobileNavBar />
+                        <ArticlesContainer>
+                            {articles.map((article, index) => (
+                                (index % 2 === 0) ? <a style={{textDecoration:'none'}} href={article.article_link}><LeftArticle article={article} /></a> : <a style={{textDecoration:'none'}} href={article.article_link}><RightArticle article={article}/></a>
+                            ))}
+                        </ArticlesContainer>
+                    </SectionWrapper>
+                </Container>
+            <BackgroundImg src={sectionBackground} />
+        </Wrapper>
+       
     );
 };
 

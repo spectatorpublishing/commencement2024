@@ -5,8 +5,10 @@ import { NavHashLink } from 'react-router-hash-link';
 import navBackground from '../assets/navbar.png';
 
 const Container = styled.div`
-    width: 100%;
+    width: 80%;
     position: relative;
+    z-index: 5;
+    margin: auto;
 `;
 
 const NavWrapper = styled.div`
@@ -23,7 +25,7 @@ const NavImage = styled.img`
     position: absolute;
     z-index: 0;
     width: 100%;
-    top: -40%;
+    top: -25%;
 `;
 
 const VertNav = styled.div`
@@ -54,7 +56,7 @@ const Tab = styled.a`
 `;
 
 const NavText = styled.div`
-    font-family: "Darumadrop One", sans-serif;
+    font-family: "Charter", sans-serif;
     text-transform: uppercase;
     z-index: 5;
 `;
