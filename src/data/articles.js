@@ -1,68 +1,32 @@
 // Mock data to define articles to be passed into each section page
 export const ac_articles = [
   {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/soharlems-designers-reflect-on-the-creative-process-garment-making-and-working-in-harlem/",
-    "article_title": "SoHarlem’s designers reflect on the creative process, garment-making, and working in Harlem",
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/#:~:text=Four%20years%20later%3A%20Seniors%20reflect%20on%20social%20media%E2%80%99s%20role%20in%20forming%20friendships%20since%20fall%202020",
+    "article_title": "Four years later: Seniors reflect on social media’s role in forming friendships since fall 2020",
     "article_authors": "Kristin Merrilees",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3FEIAVTO6NES3LR5UWAFAKNUYA.jpg"
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7QMJ2R6XGVFJ5MWNNWAHF3OLKU.png"
   }, 
   {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/05/photographs-of-langston-hughes-by-griffith-j-davis-the-schomburg-center-celebrates-black-artistry-and-friendship/",
-    "article_title": "Photographs of Langston Hughes by Griffith J. Davis: The Schomburg Center celebrates Black artistry and friendship",
-    "article_authors": "Stuart Beal",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AVK3MM6NEBHIDIUC7OSQWYR2EI.jpg"
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/04/28/madison-hu-gs-24-on-her-acting-career-and-time-at-columbia/",
+    "article_title": "Madison Hu, GS ʼ24, on her acting career and time at Columbia",
+    "article_authors": "Taylor Graham",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QXUG6Y4POJHF5ILR5Z7MSKQOEY.jpg"
   },
   {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/harlem-chamber-players-is-retelling-black-history-of-classical-music-for-west-harlem/",
-    "article_title": "Harlem Chamber Players is retelling Black history of classical music for West Harlem",
-    "article_authors": "LAYLA HUSSEIN",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FINA5NQ7BZHB5PR3IZ3JJAWHIE.jpeg"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/13/conceiving-culture-grandmaster-flash-on-quick-mix-theory-50-years-of-hip-hop-and-making-something-out-of-nothing/",
-    "article_title": "Conceiving culture: Grandmaster Flash on quick mix theory, 50 years of hip-hop, and making something out of nothing",
-    "article_authors": "Rachel Shaw",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7WVTESNF5NBI7E6SFLLCXJH6XM.jpg"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/sandi-ahavah-nelson-jamal-peoples-and-gregory-lawrence-reflect-on-50-years-of-hip-hop/",
-    "article_title": "Sandi ‘Ahavah’ Nelson, Jamal Peoples, and Gregory Lawrence reflect on 50 years of hip-hop",
-    "article_authors": "Joyce Zhang",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MMTBO3T7CZBQPEWDQ4RYEI5XAE.png"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/09/student-and-professional-actress-ariana-neal-reflects-on-beyonce-her-career-and-the-future-of-the-black-theatre-ensemble/",
-    "article_title": "Student and professional actress Ariana Neal reflects on Beyonce, her career, and the future of the Black Theatre Ensemble",
-    "article_authors": "AVA MARKHOVSKY",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TE7T6KNUMBAFNF2XC7B45CNONY.jpg"
-  },
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/05/02/senior-tommy-doyle-reflects-on-a-dynamic-journey/",
+    "article_title": "Senior Tommy Doyle Reflects on a dynamic journey",
+    "article_authors": "Sarah Shapiro",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WD3RNDJTOJB27PEUYBB47VGPAE.jpg"
+  }
 ];
 export const crosswords_articles = 
 [
   {
-    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/13/preserving-a-community-anchor-west-harlems-arts-and-culture-programs-work-to-maintain-and-expand-economic-and-community-building-initiatives/",
-    "article_title": "Preserving a community anchor: West Harlem's arts and culture programs work to maintain and expand economic and community building initiatives",
-    "article_authors": "Chimene Keys",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/W6EB6BKIP5EZRJ57FSYOR2UVWI.JPG"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/13/ethiopian-owned-oasis-juice-bar-expands-to-columbia-business-school-2/",
-    "article_title": "Ethiopian-owned Oasis Juice bar expands to Columbia Business School",
-    "article_authors": "Naomi Baker",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YEAJ4X2SMFCKDJBLYH6R5PFMMM.jpg"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/12/we-act-celebrates-dominican-heritage-and-black-history-month-at-february-meeting/",
-    "article_title": "WE ACT celebrates Dominican Heritage and Black History Month at February meeting",
-    "article_authors": "Uriel Lopez",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UJ2D7UNPNRC4HL2QT4IFC6RZLM.jpg"
-  },
-  {
-    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/11/sidewalk-shed-reinstated-at-409-edgecombe-avenue-historic-harlem-home-of-black-leaders/",
-    "article_title": "Sidewalk shed reinstated at 409 Edgecombe Avenue, historic Harlem home of Black leaders",
-    "article_authors": "Uriel Lopez",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RBIBG2HMVBCNBFWUZTM7KVFPZ4.jpg"
-  },
+    "article_link": "https://www.columbiaspectator.com/multimedia/2024/05/11/commencement-2024-puzzle/",
+    "article_title": "Commencement 2024 Puzzle",
+    "article_authors": "Jolie L'Heureux, Christopher Nunez, Caidan Speth-McCrary",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2MDWS73TIRDJROK4M2MGZ7UKAE.png"
+  }
 ];
 export const opinion_articles = [
   {
@@ -74,31 +38,55 @@ export const opinion_articles = [
 ];
   export const audio_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/podcasts/2024/02/13/riverside-church-and-the-road-to-racial-justice/",
-      "article_title": "Riverside Church and the road to racial justice",
-      "article_authors": "Sophia Cordoba",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7UVQTK7PBBHYPFJE5ULHFXWREQ.png"
+      "article_link": "https://www.columbiaspectator.com/podcasts/2024/04/25/33-hours-in-the-liberated-zone/",
+      "article_title": "33 Hours in the ‘Liberated Zone’",
+      "article_authors": "Lara-Nour Walton and Sophia Cordoba",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FTTNTC6RBJAPTKD5B2WNPOXOAI.jpg"
     },
   ];
 
   export const university_news_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/news/2024/02/08/an-embedded-community-black-pre-law-society-brings-together-black-undergraduates/",
-      "article_title": "‘An embedded community’: Black Pre-Law Society brings together Black undergraduates",
-      "article_authors": "Saul Quintanar",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QLRA36SUHNFDDON5B3KZW5MWKM.jpg"
+      "article_link": "https://www.columbiaspectator.com/news/2024/05/02/timeline-the-gaza-solidarity-encampment/",
+      "article_title": "Timeline: The ‘Gaza Solidarity Encampment’",
+      "article_authors": "Isha Banerjee and Diya Nair",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZEZAYBRU4JGAFOY7K3LE4EU76Y.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2024/02/13/obama-presidency-oral-history-project-documents-presidency-through-voices-of-administration-activists-and-everyday-people/",
-      "article_title": "Obama Presidency Oral History Project documents presidency through voices of administration, activists, and everyday people",
-      "article_authors": "Sabrina Ticer-Wurr",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FRMPYE2AMJCGHGO3FAEOLIQIHA.png"
+      "article_link": "https://www.columbiaspectator.com/news/2024/04/30/dozens-occupy-hamilton-hall-as-pro-palestinian-protests-spread-across-campus/",
+      "article_title": "Dozens occupy Hamilton Hall as pro-Palestinian protests spread across campus",
+      "article_authors": "Amira McKee, Sarah Huddleston, Esha Karam, Shea Vance, Manuela Silva, and Claire Cleary",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5ZNDUITNUZFGPKOTIK6BDYO2BA.jpeg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2024/02/14/meeting-the-political-moment-bso-and-boss-at-columbia-and-barnard-over-the-past-five-decades/",
-      "article_title": "‘Meeting the political moment’: BSO and BOSS at Columbia and Barnard over the past five decades",
-      "article_authors": "Maya Stahl",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SFYO5LPZBJEB7GGV7VKCXZBS2A.png"
+      "article_link": "https://www.columbiaspectator.com/news/2024/04/30/nypd-sweeps-occupied-hamilton-hall-arrests-dozens/",
+      "article_title": "NYPD sweeps occupied Hamilton Hall, arrests dozens",
+      "article_authors": "Esha Karam, Shea Vance, Sarah Huddleston, Amira McKee, and Manuela Silva",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VOJ5U3HKWJDDRMOQCKSKDEMS7A.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/news/2024/05/04/our-campus-our-crisis/",
+      "article_title": "Our Campus. Our Crisis.",
+      "article_authors": "Isabella Ramírez, Amira McKee, Rebecca Massel, Emily Forgash, Noah Bernstein, Sabrina Ticer-Wurr, and Apurva Chakravarthy",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KDY3FH4PCVCDNO56LBGOYL5NEU.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/photo-essays/2024/05/04/listen-up-columbia/",
+      "article_title": "Listen Up, Columbia!",
+      "article_authors": "Gabriella Gregor Splaver",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YAGBMOIZPJHLLNFGEV6DSBL2OA.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/news/2024/05/04/should-columbias-president-resign/",
+      "article_title": "Should Columbia’s President Resign?",
+      "article_authors": "Isabella Ramírez, Emily Forgash, Noah Bernstein, Sabrina Ticer-Wurr, and Apurva Chakravarthy",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FOGMME3NDFBRPFBH2GH3KRKCFQ.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/news/2024/05/06/columbia-commencement-ceremonies-canceled-school-class-days-moved-off-campus/",
+      "article_title": "Columbia Commencement ceremonies canceled, school Class Days moved off campus",
+      "article_authors": "Emily Forgash",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EPPKL5DEJVHZPCQZJJJBSQ6KZE.JPG"
     },
   ];
 
@@ -132,27 +120,21 @@ export const opinion_articles = [
 
   export const spectrum_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/black-history-month-class-list-must-take-classes-you-shouldnt-miss/",
-      "article_title": "Black History Month class list: Must-take classes you shouldn’t miss",
-      "article_authors": "Jasmine Li",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOGBEENULNGHRFTNFTFGNVGSAM.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/highlighting-black-columbia-alumni-and-their-experiences/",
-      "article_title": "Highlighting Black Columbia alumni and their experiences",
-      "article_authors": "Terrah Garner",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3CVPTRASFJCZ7AYM3PSLJQ4BK4.png"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/01/black-history-month-events-to-check-out-this-february/",
-      "article_title": "Black History Month events to check out this February",
-      "article_authors": "Manuela Moreyra",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OWILOXTMENCK7BQ7JIRUAKJGVA.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/black-history-month-playlist-and-book-recommendations/",
-      "article_title": "Black History Month playlist and book recommendations",
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/04/28/open-when-youre-graduating/",
+      "article_title": "Open when: You're graduating",
       "article_authors": "Anuthmi Waas",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5BSKSYZH5VENFL4VEHGSN7H5BI.JPG"
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WCC2MW2BVVF4DCPDVWTUEZ2TUQ.png"
     },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/04/28/making-the-most-out-of-the-columbia-and-barnard-community-after-graduation/",
+      "article_title": "Making the most out of the Columbia and Barnard community after graduation",
+      "article_authors": "Suhani Arora",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AH4MHM42L5H3PJHGYI2JNOK5CI.JPG"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/04/29/five-ways-to-end-off-the-academic-year/",
+      "article_title": "Five ways to end off the academic year",
+      "article_authors": "Ria Dalal",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UU4XGYEXQVCCJLBXMYJNVQLSTM.jpg"
+    }
 ];

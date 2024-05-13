@@ -22,7 +22,6 @@ const LetterWrapper = styled.div`
 
 const LetterImg = styled.img`
     width: 100%;
-    height: 100%;
 `;
 
 const LeftTape = styled.img`

@@ -12,6 +12,7 @@ import {
   crosswords_articles,
   spectrum_articles 
 } from './data/articles';
+import ScrollToTop from './functions/ScrollToTop'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/uni-news" element={<Section id="uni-news" header="UNIVERSITY NEWS" articles={university_news_articles}/>} />

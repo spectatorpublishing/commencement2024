@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar';
 import styled from 'styled-components';
 import MobileNavBar from '../components/MobileNavBar';
 import SpecLogoHeader from '../components/SpecLogoHeader';
+import homeImage from '../assets/homeImage.png'
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -16,12 +17,13 @@ const HomeContainer = styled.div`
 
 const Header = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 110%;
+    margin-bottom: 2%;
 `;
 
 const Photo = styled.div`
     width: 100%;
-    height: 80%;
+    height: 100%;
     position: relative;
 `;
 
@@ -41,7 +43,7 @@ const Home = () => {
                 <Header>
                     <SpecLogoHeader/>
                     <Photo>
-                        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RYKCC2DODRDRFC2KV7J4IO3VJQ.jpg" alt = "commencement illustration" style = {{width: '100%', height: '100%'}}></img>
+                        <img src={homeImage} alt = "commencement illustration" style = {{width: '100%', height: '100%'}}></img>
                     </Photo>
                 </Header>
                 <MobileNavBar/>

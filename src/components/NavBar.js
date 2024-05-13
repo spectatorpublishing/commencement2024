@@ -16,7 +16,7 @@ const NavWrapper = styled.div`
     a {
         text-decoration: none;
     }
-    @media only screen and (max-width: 1023px){
+    @media only screen and (max-width: 1080px){
         display: none;
     }
 `;
@@ -26,6 +26,12 @@ const NavImage = styled.img`
     z-index: 0;
     width: 100%;
     top: -25%;
+    @media only screen and (max-width: 1415px){
+        top: -40%;
+    }
+    @media only screen and (max-width: 1080px){
+        display: none;
+    }
 `;
 
 const VertNav = styled.div`
@@ -53,12 +59,19 @@ const Tab = styled.a`
         cursor:pointer;
         z-index: 5;
     }
+
+    @media only screen and (max-width: 1415px){
+        margin: 0rem 2rem;
+        font-size: 1rem;
+        padding: 0.6rem 1.25rem;
+    }
 `;
 
 const NavText = styled.div`
     font-family: "Charter", sans-serif;
     text-transform: uppercase;
     z-index: 5;
+    
 `;
 
 

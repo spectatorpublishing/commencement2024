@@ -16,11 +16,11 @@ const NavWrap = styled.div`
         text-decoration: none;
     }
 
-    @media only screen and (min-width: 1023px){
+    @media only screen and (min-width: 1080px){
         display: none;
     }
 
-    @media only screen and (max-width: 1023px){
+    @media only screen and (max-width: 1080px){
         display: flex;
         flex-direction: row;
     }
@@ -29,7 +29,7 @@ const NavWrap = styled.div`
 const MobileNav = styled.div`
     display: none;
     padding: 0rem 1rem;
-    @media only screen and (max-width: 1023px){
+    @media only screen and (max-width: 1080px){
         display: flex;
         flex-direction: row;
     }
@@ -49,7 +49,7 @@ const MobileMenu = styled.div`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F8BEB9;
 
-    @media only screen and (max-width: 1023px){
+    @media only screen and (max-width: 1080px){
         display: flex;
         flex-direction: column;
     }
