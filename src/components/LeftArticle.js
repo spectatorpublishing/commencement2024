@@ -58,24 +58,24 @@ const ArticleImage = styled.div`
 const ArticleAuthor = styled.div`
     color: black;
     font-family: "Charter", sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: normal;
     padding: 0.3rem;
     text-align: center;
-    @media screen and (max-width: 1200px) {
-        font-size: 1.2rem;
+    @media screen and (max-width: 1180px) {
+        font-size: 0.75rem;
     }
     @media screen and (max-width: 1023px) {
         font-size: 1.1rem;
     }
     @media screen and (max-width: 768px) {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
     }
     @media screen and (max-width: 600px) {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     @media screen and (max-width: 550px) {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     @media screen and (max-width: 500px) {
         font-size: 0.7rem;
@@ -105,21 +105,28 @@ const ArticleTitle = styled(ArticleInfo)`
     color: #DEF1FF;
     z-index: 2;
     font-size: 1.2rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 10% 5%;
+    
 
-    @media screen and (max-width: 1024px) {
-        font-size: 1.1rem;
-        margin-left: -10%;
+    @media screen and (max-width: 1080px) {
+        font-size: 1rem;
+        margin-left: -25%;
+        padding: 5% 25%;
     }
     @media screen and (max-width: 768px) {
         font-size: 0.9rem;
     }
-    @media screen and (max-width: 450px) {
-        font-size: 0.5rem;
+    @media screen and (max-width: 600px) {
+        font-size: 0.6rem;
+        margin-left: -40%;
+        padding: 5% 30%;
     }
+    @media screen and (max-width: 450px) {
+        font-size: 0.4rem;
+        margin-left: -30%;
+        padding: 5% 30%;
+    }
+    
 `;
 
 const Tape = styled.img`
@@ -147,6 +154,15 @@ const SideSwipe = styled.img`
 
     @media screen and (max-width: 768px) {
         width: 145%;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 125%;
+        margin-left: -6rem;
+    }
+    @media screen and (max-width: 450px) {
+        width: 135%;
+        margin-left: -3rem;
     }
 `;
 

@@ -146,6 +146,15 @@ const Text = styled.div`
     font-size: 1.29rem;
     line-height: 2rem;
 
+    @media only screen and (min-width: 1680px){
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    @media only screen and (min-width: 1440px) and (max-width: 1680px){
+        font-size: 2.1rem;
+    }
+
     @media only screen and (max-width: 1250px){
         font-size: 1rem;
     }
@@ -190,6 +199,10 @@ const Signature = styled.div`
         text-transform: capitalize;
         text-align: center;
 
+        @media only screen and (min-width: 1440px){
+            font-size: 2.5rem;
+        }
+
         @media only screen and (max-width: 1250px){
             font-size: 1.5rem;
         }
@@ -210,6 +223,10 @@ const Signature = styled.div`
         font-size:  2rem;
         line-height: 1.813rem;
         margin: 0rem;
+
+        @media only screen and (min-width: 1440px){
+            font-size: 2.5rem;
+        }
 
         @media only screen and (max-width: 1250px){
             font-size: 1.5rem;

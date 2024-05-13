@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     z-index: 2;
     overflow: hidden;
     background-color: #BFC4DA;
-`
+`;
 
 const BackgroundImg = styled.img`
     position: absolute;
@@ -30,7 +30,6 @@ const Container = styled.div`
     z-index: 5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 `;
 
 const SectionWrapper = styled.div`
@@ -57,6 +56,10 @@ const Header = styled.div`
     margin-bottom: 10%;
     font-family: 'against', sans-serif;
     color: #233C70;
+
+    @media screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
 `;
 
 

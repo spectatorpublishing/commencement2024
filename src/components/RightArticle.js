@@ -58,19 +58,34 @@ const ArticleImage = styled.div`
 const ArticleAuthor = styled.div`
     color: black;
     font-family: "Charter", sans-serif;
-    font-size: 0.9rem;
-    line-height: normal;
+    font-size: 0.8rem;
     padding: 0.3rem;
+    height: 20%;
     text-align: center;
-   
+
+    @media screen and (max-width: 1180px) {
+        font-size: 0.7rem;
+    }
     @media screen and (max-width: 1023px) {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     @media screen and (max-width: 768px) {
-        font-size: 1.0rem;
+        font-size: 0.65rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 0.7rem;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 0.6rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 0.6rem;
     }
     @media screen and (max-width: 450px) {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 0.3rem;
     }
 `;
 
@@ -95,7 +110,7 @@ const ArticleTitle = styled(ArticleInfo)`
     padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
-    @media screen and (max-width: 1023px) {
+    @media screen and (max-width: 1080px) {
         font-size: 1.1rem;
     }
     @media screen and (max-width: 768px) {
