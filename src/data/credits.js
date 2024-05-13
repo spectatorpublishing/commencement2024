@@ -182,7 +182,19 @@ export const credits = {
       },
       {
         "staff_name": "Arielle Rieder",
-        "title": "Staff Writer"
+        "title": "Sports Staff Writer"
+      },
+      {
+        "staff_name": "Benjamin Rubin",
+        "title": "Sports Staff Writer"
+      },
+      {
+        "staff_name": "Emily Michaelsen",
+        "title": "Sports Staff Writer"
+      },
+      {
+        "staff_name": "Ashley Flores",
+        "title": "Sports Staff Writer"
       },
     ],
     "Photo": [
