@@ -1,5 +1,6 @@
 {
   "name": "commencement2024",
+  "homepage": "https://commencement2024.columbiaspectator.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
