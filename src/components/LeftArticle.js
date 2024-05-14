@@ -115,7 +115,6 @@ const ArticleTitle = styled(ArticleInfo)`
     @media only screen and (min-width: 1680px){
         font-size: 1.6rem;
     }
-    
 
     @media screen and (max-width: 1080px) {
         font-size: 1rem;
@@ -126,9 +125,9 @@ const ArticleTitle = styled(ArticleInfo)`
         font-size: 0.9rem;
     }
     @media screen and (max-width: 600px) {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         margin-left: -40%;
-        padding: 5% 30%;
+        padding: 5% 34%;
     }
     @media screen and (max-width: 450px) {
         font-size: 0.4rem;

@@ -30,11 +30,47 @@ export const crosswords_articles =
 ];
 export const opinion_articles = [
   {
-    "article_link": "https://www.columbiaspectator.com/opinion/2024/02/12/ask-alma-when-attention-from-rich-besties-tokenizing-peers-and-campus-paparazzi-is-too-much-what-yacht-we-to-do/",
-    "article_title": "Ask Alma: When attention from rich besties, tokenizing peers, and campus paparazzi is too much, what 'yacht’ we to do?",
-    "article_authors": "Spectator Editorial Board",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6KLXODPWG5GSLEXXAF4O4OXMCA.jpg"
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/on-worship/",
+    "article_title": "On worship",
+    "article_authors": "Irie Sentner",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VGHTUIMCGFFLVHIPQMJWWGP3WU.jpg"
   },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/if-you-dont-want-to-be-a-journalist-you-shouldnt-shoot-for-specs-managing-board-heres-why/",
+    "article_title": "If you don’t want to be a journalist, you shouldn’t shoot for Spec’s managing board. Here’s why.",
+    "article_authors": "Jorge Hernandez",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2UNQ42OM4FGNJHDZO2YKJW732Q.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/you-dont-have-to-know-it-all/",
+    "article_title": "You don’t have to know it all",
+    "article_authors": "Maria Rice",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4EPSRXPHVZDXVEP35PZTXW6KQ4.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/the-birth-of-spec-audio-independence-and-audio-storytelling/",
+    "article_title": "The birth of Spec Audio: Independence and audio storytelling",
+    "article_authors": "Claire Schnatterbeck",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4UE6MMCL5EA3PRMYXLO7X2544.JPG"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/how-to-be-in-three-places-at-once/",
+    "article_title": "How to be in three places at once",
+    "article_authors": "Isa Farfan",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/G3VJSNFD2FAJLHHYREVRB4GHDQ.JPEG"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/a-retrospective-from-a-spec-super-senior/",
+    "article_title": "A retroSPECtive from a Spec super senior",
+    "article_authors": "Maria Levit",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2BTQQQKPLNDWTCBGLENPB4UT74.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/05/12/whos-afraid-of-creative-writers/",
+    "article_title": "Who’s afraid of creative writers?",
+    "article_authors": "Caelan Bailey",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z52VOH4XLNEFJDN2SQIATGNLN4.jpg"
+  }
 ];
   export const audio_articles = [
     {
