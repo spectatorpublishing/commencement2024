@@ -130,7 +130,7 @@ const ArticleTitle = styled(ArticleInfo)`
         padding: 5% 34%;
     }
     @media screen and (max-width: 450px) {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         margin-left: -30%;
         padding: 5% 30%;
     }
