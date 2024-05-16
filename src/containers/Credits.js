@@ -82,7 +82,7 @@ const Section = styled.div`
     width: auto;
     height: fit-content;
     margin-bottom: 2rem;
-    padding:0;
+    padding:0 0.5rem;
     margin:0;
     font-family: "Charter", sans-serif;
     text-transform: uppercase;
@@ -123,7 +123,7 @@ const Name = styled.div`
         font-size: 1.4rem;
     }
 
-    @media only screen and (max-width: 1216px){
+    @media only screen and (max-width: 1380px){
         font-size: 0.9rem;
     }
 

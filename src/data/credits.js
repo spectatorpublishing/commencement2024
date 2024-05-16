@@ -58,7 +58,7 @@ export const credits = {
       },
       {
         "staff_name": "Emily Forgash",
-        "title": "Senior Staff Writer"
+        "title": "Deputy News Editor"
       },
       {
         "staff_name": "Sabrina Ticer-Wurr",
